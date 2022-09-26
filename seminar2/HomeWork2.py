@@ -30,7 +30,7 @@
 
 
 
-# 3.Задайте список из n чисел последовательности $(1+\frac 1 n)^n$ и выведите на экран их сумму.
+# Задайте список из n чисел последовательности $(1+\frac 1 n)^n$ и выведите на экран их сумму.
 
 # sum = 0
 # for i in range(1, int(input()) + 1):
@@ -38,11 +38,11 @@
 # print(round(sum))
 
 
-# 5. Реализуйте алгоритм перемешивания списка.
+# Реализуйте алгоритм перемешивания списка.
 
-# import random
+import random
 
-# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
-# random.shuffle(numbers)
-# print(numbers)
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+random.shuffle(numbers)
+print(numbers)
 
